@@ -1,0 +1,34 @@
+body{
+  background-image: url(imagem.html/fp\ 3.png);
+  background-size: cover;
+  margin: 0; /* Remove margens padrões */
+  overflow: hidden; /* Impede que a página tenha barras de rolagem */
+  height: 100vh; /* Define a altura da página como 100% da altura da tela */
+  display: flex; /* Aplica o modelo de layout flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  color: white; /* Define a cor do texto como branco */
+  position: relative; /* Define a posição relativa para permitir o posicionamento de elementos filhos */
+  flex-direction: column; /* Organiza os itens de forma vertical */
+  
+}
+h1{
+  font-size: xx-large;
+  font-family: "Orbitron", serif;
+
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.1); /* Define um fundo transparente com um pouco de branco */
+  padding: 20px; /* Adiciona preenchimento dentro do contêiner */
+  border-radius: 10px; /* Arredonda os cantos do contêiner */
+  backdrop-filter: blur(10px); /* Aplica um desfoque ao fundo do contêiner */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+  width: 300px; /* Define a largura do contêiner */
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.377); /* Aplica uma sombra suave no contêiner */
+}
+
+
+
+

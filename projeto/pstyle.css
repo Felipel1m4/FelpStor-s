@@ -1,0 +1,149 @@
+
+body{
+    background-image:url(imagem.html/WhatsApp\ Image\ 2025-02-03\ at\ 9.47.46\ AM.jpeg) ;
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição */
+    background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 15px;
+    background-color: #ffffff36;
+    color: white;
+    border-radius: 450px;
+}
+  .logo img{
+    height: 50px;
+    padding: 0px 10px;
+    width: auto;
+
+}
+.pesquisa {
+    font-size: 25pt;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+.pesquisa input{
+    font-size: 14pt;
+    padding: 8px;
+    border-radius: 100px;
+}
+
+h1{
+    font-family: "Mystery Quest", serif;
+    font-size: 50px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-clip: text;
+    box-shadow:rgb(70, 80, 70);
+}
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7 {
+    margin: 250px;
+    display: flex;
+    /* flexivel */
+    justify-content: center;
+    /* contralizando horizontal */
+    align-items: center;
+    /* contralizando vertical */
+    min-height: 20vh;
+    /* altura minina */
+    flex-wrap: wrap;
+    padding: 20px;
+    /* espaçamento entre livros */
+    
+}
+.book-box1,.book-box2,.book-box3, .book-box4,.book-box5, .book-box6,.book-box7 {
+    align-items: center;
+    width: 250px;
+    /* largura */
+    height: 400px;
+    /* altura */
+    background-color: #745d5d4b;
+    /* cor de fundo */
+    box-shadow: 0 4px 8px rgba(46, 16, 182, 0.2);
+    /* sombras atras da caixa */
+    border-radius: 10px;
+    /* bordas */
+    text-align: center;
+    /* texto centralizado */
+    padding: 20px; 
+    /* espçamento */
+    transition: transform 0.3s ease-in-out;
+    /* transição */
+    position: relative;
+    display:inline-flex table-column;
+    flex-direction:column; 
+    /* deixa em posição de coluna */
+    justify-content:row;
+    flex-wrap: wrap;
+}
+
+.book-box1:hover {
+    transform: translateY(-10px);
+}
+/* transição ao passar o mouse (book1) */
+.book-box2:hover {
+    transform: translateY(-10px);
+}
+/* transição ao passar o mouse (book 2)*/
+.book-box3:hover {
+    transform: translateY(-10px);
+}
+/* transição ao passar o mouse (book 3) */
+.book-box4:hover {
+    transform: translateY(-10px);
+}
+.book-box5:hover {
+    transform: translateY(-10px);
+}
+.book-box6:hover {
+    transform: translateY(-10px);
+}
+.book-box7:hover {
+    transform: translateY(-10px);
+}
+.book-box1 img,.book-box2 img , .book-box3 img , .book-box4 img, .book-box5 img, .book-box6 img, .book-box7 img {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book-info1 , .book-box2, .book-box3 , .book-box4, .book-box5,.book-box6, .book-box7 {
+    margin-top: 10px;
+}
+
+.book-info1 h3, h4, h5, h6{
+    font-size: 18px;
+    color: white
+}
+
+.book-info1 p ,.book-info2 p, .book-info3 p , .book-info4, .book-info5 p ,.book-info6 p,.book-info7 p{
+    font-size: 14px;
+    color:white;
+}
+.button1, .button2, .button3, .button4 ,.button5 ,.button6 ,.button7 {
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: green;
+}
+
+
+

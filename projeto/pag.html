@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Compra</title>
+    <link rel="stylesheet" href="ppstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro de Compra</h1>
+        <form id="compraForm" onsubmit="event.preventDefault(); irParaOutraPagina();">
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="livro">Livro Selecionado</label>
+                <select id="livro" name="livro" required>
+                    <option value="livro1">Como fazer amigos e influenciar pessoas</option>
+                    <option value="livro2">A arte da guerra</option>
+                    <option value="livro3">As 48 Leis do Poder</option>
+                    <option value="livro4">Quem Pensa Enriquece</option>
+                    <option value="livro5">Os Onze Anéis</option>
+                    <option value="livro6">Transformando Suor em Ouro</option>
+                    <option value="livro7">A Psicologia Financeira</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="quantidade">Quantidade</label>
+                <input type="number" id="quantidade" name="quantidade" required min="1">
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço de Entrega</label>
+                <textarea id="endereco" name="endereco" rows="4" required></textarea>
+            </div>
+
+            <!-- Adicionando o botão de redirecionamento -->
+            <script>
+                function irParaOutraPagina() {
+                    window.location.href = "final.html";  
+                }
+            </script>
+
+            <!-- Ao clicar, o formulário será validado e redirecionará -->
+            <button type="submit">Finalizar Compra</button>
+        </form>
+    </div>
+</body>
+
+</html>
